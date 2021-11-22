@@ -1,0 +1,65 @@
+body {
+    background-color: #f0e9cc;
+    background-image: url(https://d3mqmy22owj503.cloudfront.net/05/500005/images/site_graphics/poulsbo-waterfront-1200px.jpg);
+}
+header {
+    background-color: rgba(234, 250, 212, 98);
+    text-align: center;
+    border: solid hsla(5, 20%, 70%, .5) .2em;
+    margin: 1%;
+    padding: .5%;
+    border-radius: 5%;
+}
+h1 {
+    font-family: fantasy;
+    padding: 2%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+}
+nav li {
+    display: inline;
+    margin: 5%;
+    border: solid hsla(5, 20%, 70%, .5) 1px;
+    background-color: rgba(225, 227, 204, 89);
+    padding: 1%;
+    border-radius: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section {
+    background-color: #ccf5f0e7;
+    border: solid hsla(5, 20%, 70%, .5) .2em;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 15%;
+}
+p {
+    text-align: center;
+}
+section li{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    margin: .2%;    
+    /*Idea to use inline-block from stackoverflow*/
+}
+footer {
+    background-color: rgba(234, 250, 212, 98);
+    text-align: center;
+    border: solid hsla(5, 20%, 70%, .5) .2em;
+    margin: 2%;
+    border-radius: 5%;
+}
+#bpimage {
+    width: 10%;
+    height: 15%;
+}
+#sod {
+    width: 30%;
+    height: 25%;
+    border-radius: 20%;
+    border-color: hsla(5, 20%, 70%, .5) 2px;
+}
