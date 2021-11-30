@@ -1,8 +1,11 @@
+function getFaveColor(){
 let mainstyle = "black";
 var favoriteColor = prompt("Please Input your favorite color");
 if (favoriteColor == mainstyle){
-    document.write("Please reload page and choose a new color");
+    document.write("You've chosen the right color!");
 }
 else {
-    document.getElementbyID("slh").style.color = favoriteColor;
+    favoriteColor = prompt("Please enter the right color");
+    getFaveColor();
+}
 }

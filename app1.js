@@ -1,3 +1,4 @@
+function getVisitorName(){
 let mainUserName = "Christina Robinson";
 
 var newUser = prompt("Please Enter Your Name");
@@ -10,7 +11,7 @@ else {
     document.write("Hi " + newUser + ", Welcome to our Wonderful Community!");
     siteStyle = "styles.css";
 }
-
+}
 // using structure for prompt from W3 webpage https://www.w3schools.com/jsref/met_win_prompt.asp // 
 // console.log("We Made IT");
 
