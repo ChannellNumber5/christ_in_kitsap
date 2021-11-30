@@ -1,11 +1,10 @@
 body {
-    background-color: #f0e9cc;
-    background-image: url(https://d3mqmy22owj503.cloudfront.net/05/500005/images/site_graphics/poulsbo-waterfront-1200px.jpg);
-}
+    background-color: #DBC574;
+    }
 header {
-    background-color: rgba(234, 250, 212, 98);
+    background-color: rgba(235, 121, 87, 92);
     text-align: center;
-    border: solid hsla(5, 20%, 70%, .5) .2em;
+    border: solid rgba(209, 182,217,85);
     margin: 1%;
     padding: .5%;
     border-radius: 5%;
@@ -15,7 +14,7 @@ h1 {
     padding: 2%;
     text-align: center;
 }
-h2 {
+h2{
     text-align: center;
     font-family: fantasy;
 }
@@ -29,8 +28,8 @@ nav li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 section {
-    background-color: #ccf5f0e7;
-    border: solid hsla(5, 20%, 70%, .5) .2em;
+    background-color: #C7F0BD;
+    border: solid #EB7957;
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
